@@ -26,6 +26,7 @@ public class ApplicationServer {
             .command("java", "-jar", jarPath)
             .inheritIO();
 
+        
         processBuilder.environment().put("SERVER_PORT", port);
         env.forEach((key, value) -> processBuilder.environment().put(key, value));
 
