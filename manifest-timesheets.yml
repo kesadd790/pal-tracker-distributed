@@ -12,4 +12,4 @@ applications:
       JAVA_OPTS: '-Xms64m -Xmx256m'
       GRANT_TYPE: client_credentials
     services:
-  - tracker-timesheets-database
+      - tracker-timesheets-database
