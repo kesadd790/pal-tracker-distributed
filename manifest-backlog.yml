@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-bablu-keshav.cfapps.io
+  - route: backlog-pal-bablu-keshav-oauth.cfapps.io
   instances: 1
   memory: 475M
   disk_quota: 475M

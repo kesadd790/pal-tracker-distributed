@@ -2,7 +2,7 @@ applications:
   - name: tracker-allocations
     path: ./applications/allocations-server/build/libs/allocations-server.jar
     routes:
-      - route: allocations-pal-bablu-keshav.cfapps.io
+      - route: allocations-pal-bablu-keshav-oauth.cfapps.io
     instances: 1
     memory: 475M
     disk_quota: 475M
